@@ -7,7 +7,7 @@ import {
   Telephone,
 } from "react-bootstrap-icons";
 
-import "./Landingpage.css";
+import "./landingpage.css";
 import "../../App.css";
 
 const Footer = () => {
