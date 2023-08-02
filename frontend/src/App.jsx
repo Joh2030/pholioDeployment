@@ -19,9 +19,6 @@ import Shop from "./pages/clientpages/Shop";
 
 //Stylesheets
 import "./App.css";
-import "../src/components/landingpage/Landingpage.css";
-import "./components/client/client.css";
-import "./components/photographer/photographer.css";
 
 function App() {
   return (
