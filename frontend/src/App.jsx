@@ -22,7 +22,6 @@ import "./App.css";
 import "../src/components/landingpage/Landingpage.css";
 import "./components/client/client.css";
 import "./components/photographer/photographer.css";
-import LandingPage from "./pages/landingpage/Landingpage";
 
 function App() {
   return (
@@ -58,7 +57,7 @@ function App() {
         {/* <Route path="/:photographerId/:clientId" element={<AlbumList />} /> */}
         {/* <Route path="/:photographerId/:clientId/:galleryId" element={<SpecificGallery />} /> */}
       </Routes>
-    </div >
+    </div>
   );
 }
 
