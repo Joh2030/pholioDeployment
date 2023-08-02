@@ -6,7 +6,7 @@ import "../photographer/photographer.css";
 import "../../App.css";
 import axios from "axios";
 import axiosClient from "../../axiosClient";
-import addImages from "../../assets/addImages.jpg";
+import addImages from "../../assets/addimages.jpg";
 
 //ADD CLIENT NAME
 
