@@ -1,0 +1,527 @@
+.adminpage {
+  /*whole Photographers Page Container */
+  display: flex;
+}
+
+.main {
+  /*everything except the Sidebar */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  /* everything except Sidebar and Topbar */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+
+/* Topbar Photographer pages*/
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.adminnavbar {
+  background-color: var(--darkpurple);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 0;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sticky-top {
+  padding: 0 !important;
+}
+
+.adminnavleft {
+  width: 33%;
+  align-items: center;
+}
+
+.adminnavleft button {
+  background-color: var(--darkerpurple);
+  color: white;
+}
+
+.adminnavmiddle {
+  width: 33%;
+  font-size: 1.7rem;
+  text-align: center;
+  font-family: 'Nothing You Could Do';
+  font-weight: 400;
+  color: white;
+}
+
+.adminnavright {
+  width: 33%;
+  display: flex;
+  flex: row;
+  justify-content: flex-end;
+
+}
+
+.adminnavright button {
+  padding: 8px;
+  text-decoration: none;
+  background-color: var(--purple);
+}
+
+.adminnavright button a {
+  padding: 0;
+  color: white;
+  font-weight: 300;
+}
+
+
+/*new Sidebar */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 250px;
+  position: sticky;
+  top: 0;
+  /* top: -60px; */
+  background-color: #ffffff;
+  overflow-y: auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.sidenavlogo {
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.sidenavlogo {
+  font-family: 'Merienda';
+  display: flex;
+  height: 60px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.sidenavprofile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.sidenavprofile img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.sidenavname {
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.sidenavcompany {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/*  
+
+.sidenavname {
+  padding: 10px;
+  font-family: 'Nothing you could do';
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sidenavcompany {
+  font-family: 'Nothing you could do';
+  font-size: 1rem;
+  font-weight: 600;
+} */
+
+.sidebottom {
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  width: 100%;
+}
+
+.sidenavlinks {
+  margin-top: 30px;
+}
+
+.sidenavdivider {
+  margin: 0;
+}
+
+.sidenavlink :hover {
+  background-color: var(--darkpurple);
+  color: white !important;
+}
+
+.side-link {
+  display: flex;
+  height: 60px;
+  margin: 0;
+  padding: 10px 20px;
+  align-items: center;
+  color: var(--text) !important;
+}
+
+.bottomlink1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.bottomlink2 {
+  background-color: var(--purple);
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.sidebar a {
+  padding-left: 30px;
+}
+
+.sidebar a i {
+  padding-right: 20px;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+/*GalleryModal*/
+/* .custom-modal .modal-content {
+  width: 150% !important;
+  height: 150% !important;
+  margin-left: -25% !important;
+  margin-right: -25% !important;
+  border-radius: 0;
+  border: none;
+} */
+
+.dropdownbox {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 0px;
+}
+
+.nameform {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 0px;
+}
+
+.creationmodal {
+  border: none;
+  border-radius: 20px;
+}
+
+.modal-content {
+  width: 40vw;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20vh;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5))
+}
+
+.modalheader {
+  background-color: var(--darkpurple);
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  height: 4rem;
+
+}
+
+.modalbody {
+  border: none;
+  border-radius: 10px;
+}
+
+.border-square {
+  border-radius: 0;
+  border-radius: 5px;
+}
+
+.modalbutton {
+  background-color: var(--purple);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.modalbutton :hover {
+  text-decoration: none;
+  background-color: var(--darkpurple);
+  color: black;
+}
+
+.modaltitle {
+  font-family: 'Roboto';
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
+.creationmodalform {
+  width: 550px;
+}
+
+.clientdropdown {
+  width: 60%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+
+
+
+/*LoginPage.jsx*/
+.photo-section {
+  height: 100vh;
+  background-image: url(/assets/1_tn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 4rem 5rem;
+  flex-direction: column;
+}
+
+.login-section {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.loginbox {
+  padding: 0;
+}
+
+.col-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.test {
+  width: 60%;
+}
+
+
+/*login Navbar*/
+.Login-NavBackground {
+  background-color: var(--lightgrey);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+/*order list*/
+
+.order-card {
+  border: 1px solid black;
+  width: 20%;
+  width: 15em;
+  height: 100%;
+}
+
+.profilebox {
+  margin-top: 5%;
+}
+
+
+.order-list {
+  width: 70%;
+  padding-top: 10%;
+}
+
+
+/*ClientList & Client */
+.createclient {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 350px;
+  text-align: center;
+  margin: 1.8rem 1.8rem;
+  position: relative;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 350px;
+  text-align: center;
+  margin: 1.8rem 1.8rem;
+  position: relative;
+  border: 6px solid var(--purple);
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+.createclient:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.clientcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clientimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.clientname {
+  color: var(--text);
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+/* .galleryamount {} */
+
+.createicon {
+  font-size: 6rem;
+  color: var(--purple);
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
+}
+
+/*Create Gallery*/
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  margin: 1.7rem 1.7rem;
+  position: relative;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+.creategallery:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.gallery:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.galleryimage {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 0.375rem 0.375rem 0 0;
+}
+
+.gallerycontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallerytitle {
+  color: var(--text);
+  font-size: 1.4rem;
+}
+
+.assignedclient {
+  background-color: var(--grey) !important;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 0.95rem;
+  display: inline-block;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
+  align-self: flex-start;
+  margin-top: 50px;
+}
+
+.creategallery {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  margin: 1.7rem 1.7rem;
+  position: relative;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+.imagescontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dashboardpagetitle {
+  text-align: center !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 50vw;
+  margin: auto;
+  margin-top: 40px;
+}

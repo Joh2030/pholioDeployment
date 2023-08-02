@@ -1,0 +1,98 @@
+/*AlinaStart*/
+
+.uploadedimages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadedimagecontainer {
+    width: 300px;
+    height: 300px;
+    margin: 0.7rem 0.7rem;
+    position: relative;
+    border: none;
+    border-radius: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.uploadedimage {
+    /* cursor: pointer; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.imagecardbody {
+    border-radius: 0;
+}
+
+.uploadedimagecontainer:hover .deleteimage {
+    display: block;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: rgba(139, 2, 2, 1);
+    width: 2.3rem;
+    height: 2rem;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 5px;
+    z-index: 10;
+}
+
+
+.deleteimage {
+    display: none;
+    cursor: pointer;
+}
+
+.deleteimage:hover {
+    display: block;
+    cursor: pointer;
+}
+
+.downloadimage {
+    color: white;
+    font-size: 1rem;
+    background-color: var(--purple);
+    width: 3rem;
+    text-align: center;
+    position: absolute;
+
+}
+
+
+.uploadimages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 0.7rem 0.7rem;
+    position: relative;
+    border: none;
+    border-radius: 0px;
+    background-color: white;
+}
+
+
+.uploadimgs {
+    font-family: 'Merienda';
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+/*AlinaEnd*/

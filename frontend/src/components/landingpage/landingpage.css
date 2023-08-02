@@ -1,0 +1,596 @@
+body {
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Roboto';
+}
+
+/* navbar section */
+
+
+/* LandingNavbar */
+
+.landingnavbar {
+    background-color: white;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    /* position: absolute; */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sticky-top {
+    padding: 0 !important;
+}
+
+.landingnavleft {
+    width: 36.5%;
+    align-items: center;
+}
+
+.landingnavleft button {
+    background-color: var(--darkerpurple);
+    color: white;
+}
+
+.landingnavright {
+    width: 36.5%;
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+}
+
+.landingnavright button {
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: var(--purple);
+}
+
+.landingnavright button a {
+    padding: 0;
+    color: white;
+    font-size: 1.08rem;
+    font-weight: 400;
+}
+
+.navbtnnormal {
+    font-weight: 400;
+}
+
+.navbtnnormal:hover {
+    background-color: var(--darkpurple);
+    color: white;
+}
+
+.navbtndark {
+    background-color: var(--darkpurple) !important;
+    color: white;
+}
+
+.navbtndark:hover {
+    background-color: var(--purple) !important;
+    color: black;
+}
+
+.register {
+    background-color: var(--darkpurple) !important;
+}
+
+
+.pholiologo {
+    font-family: 'Merienda';
+}
+
+/* the top section after navbar */
+.landingheader {
+    position: relative;
+    background-size: cover;
+}
+
+.lpdivider {
+    border-top: 3px solid #000000;
+    width: 32%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.landingbanner {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bannercontent {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translateX(20%);
+    padding: 45px 45px 35px 45px;
+    z-index: 10;
+}
+
+.pgt {
+
+    margin-bottom: 10px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 300;
+    font-family: 'Lora';
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.ttext {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-text {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.intro {
+    max-width: 60vw !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 55px;
+    font-size: 1.3rem;
+}
+
+
+.sec1title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 300;
+    font-family: 'Lora';
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+
+.introtext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+.introtext img {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+}
+
+.introtext p {
+    padding: 2rem;
+    margin: 50px;
+}
+
+
+
+.startnowbtn {
+    background-color: var(--darkpurple);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin: 35px 0 0 0;
+}
+
+.startnowbtn:hover {
+    background-color: var(--purple);
+    color: black;
+}
+
+
+.middle-title {
+    padding-top: 10rem !important;
+    height: 25rem;
+    background-image: url('../../assets/banner.jpg');
+    background-position: -1rem -15rem;
+    color: white;
+}
+
+.sec2 {
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url('../../assets/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 500px;
+
+}
+
+.featurette {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    flex-wrap: wrap;
+}
+
+
+.feature {
+    display: flex;
+    max-width: 400px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    padding: 30px 35px 40px 35px;
+    align-self: auto;
+}
+
+.feature h4 {
+    font-family: 'Merienda';
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.feature p {
+    font-size: 1.3rem;
+}
+
+.body-desc {
+    height: 50vh;
+    position: relative;
+}
+
+
+
+/* featutes/dashboard */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem 5rem;
+    width: 80%;
+    margin-left: 10rem;
+}
+
+
+/* middle part with the galleries */
+.shop,
+.albums {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: no-wrap;
+}
+
+.galleries,
+.client {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: no-wrap;
+    align-items: center;
+}
+
+/* the testimonials */
+.whyPholio {
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem;
+
+}
+
+.responsive-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    padding: 5rem 5rem;
+
+}
+
+.responsive-par {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5rem;
+
+}
+
+.design-ul {
+    width: 80%;
+    position: relative;
+}
+
+/* the beginning of the testphase */
+.test-phase {
+    height: 40vh;
+    background-image: url('../../assets/18_tn.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    margin-top: 5rem;
+    position: relative;
+    color: white;
+}
+
+.testImg {
+    border-radius: 50%;
+    position: relative;
+    height: 60vh;
+}
+
+.containerDiv,
+.responsive-sec {
+    width: 70%;
+    margin-left: 12rem;
+    font-family: 'Roboto';
+}
+
+/* the footer secion */
+.footer {
+    background-color: var(--purplepop);
+    color: white;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.pholiologofooter {
+    font-size: 2.5rem;
+    font-family: 'Merienda';
+    margin-right: 20px;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.subscription p {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .shop,
+    .albums,
+    .galleries,
+    .client {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .containerDiv,
+    .responsive-sec {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        background-color: var(--darkpurple);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-left: 0;
+
+
+    }
+
+    .subscription {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15rem;
+        padding: 2px;
+    }
+
+    .test-phase {
+        height: 40vh;
+        background-image: url('../../assets/18_tn.jpg');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+
+}
+
+/* Login Page */
+.register-layout {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    /* Arrange elements side by side */
+}
+
+.loginimage {
+    width: 55vw;
+    background-image: url('../../assets/catlogin.jpg');
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    width: 45vw;
+    border-radius: 10px;
+    background-color: var(--lightgrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform {
+    min-width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px 20px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+    padding: 3rem;
+}
+
+.logintitle {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-family: 'Merienda';
+}
+
+.description {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.tooltipbutton {
+    font-size: 1rem;
+    color: white;
+    background-color: var(--darkpurple);
+}
+
+/* Register Page */
+
+.register-layout {
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: row;
+    /* Arrange elements side by side */
+}
+
+.registerimage {
+    width: 55vw;
+    background-image: url('../../assets/halfpage.jpg');
+    height: 100%;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.register-container {
+    width: 45vw;
+    border-radius: 10px;
+    background-color: var(--lightgrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.registerform {
+    min-width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+    padding: 3rem;
+}
+
+.form-group {
+    padding: 1rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group input {
+    font-family: 'Open Sans', sans-serif !important;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.form-group :focus {
+    outline: none !important;
+    border-bottom: 1.5px solid #737373;
+}
+
+.form-group label {
+    align-content: center;
+}
+
+
+.registertitle {
+    font-size: 3rem;
+    font-family: 'Merienda';
+}
+
+.registerbutton {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    font-size: 1.2rem;
+    color: white;
+}
