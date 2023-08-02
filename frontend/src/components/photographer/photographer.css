@@ -316,12 +316,7 @@
 
 
 /*LoginPage.jsx*/
-.photo-section {
-  height: 100vh;
-  background-image: url(/assets/1_tn.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .login-container {
   display: flex;

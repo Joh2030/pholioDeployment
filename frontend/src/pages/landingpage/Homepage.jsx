@@ -1,20 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carousel from "react-bootstrap/Carousel";
 import { PersonCheck, Globe2, Tags } from "react-bootstrap-icons";
 import { Button } from "react-bootstrap";
-import clients from "../../assets/clients.jpg";
+// import clients from "../../assets/clients.jpg";
 import shop from "../../assets/shop.jpg";
-import galleries from "../../assets/galleries.jpg";
-import albums from "../../assets/albums.jpg";
+// import galleries from "../../assets/galleries.jpg";
+// import albums from "../../assets/albums.jpg";
 import Banner from "../../assets/bannervid.mp4";
-import laptop from "../../assets/laptop.png";
+// import laptop from "../../assets/laptop.png";
 import Galleries from "../../assets/galleries.jpg";
 import "../../App.css";
 import "../../components/landingpage/landingpage.css";
-
-import Footer from "../../components/landingpage/footer";
+import Footer from "../../components/landingpage/Footer";
 import LandingNavbar from "../../components/landingpage/LandingNavbar";
 
 const HomePage = () => {

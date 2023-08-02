@@ -6,7 +6,6 @@ import {
   Twitter,
   Telephone,
 } from "react-bootstrap-icons";
-import { Button } from "react-bootstrap";
 
 import "./Landingpage.css";
 import "../../App.css";
